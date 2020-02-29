@@ -1,14 +1,14 @@
-package com.oppo.mobad.api.ad;
+package com.opos.mobad.api.ad;
 
 import android.content.Context;
-import com.oppo.mobad.api.listener.INativeAdListener;
-import com.oppo.mobad.api.params.NativeAdError;
+import com.opos.mobad.api.listener.INativeAdListener;
+import com.opos.mobad.api.params.NativeAdError;
 
 public class NativeAd {
 
     public NativeAd(Context var1, String var2, INativeAdListener var3) {
         if (var3!=null){
-            var3.onAdError(new NativeAdError(1, "not_for_oppo_ad"), null);
+//            var3.onAdError(new NativeAdError(1, "not_for_oppo_ad"), null);
         }
     }
 

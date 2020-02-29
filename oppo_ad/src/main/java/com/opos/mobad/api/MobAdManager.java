@@ -1,4 +1,4 @@
-package com.oppo.mobad.api;
+package com.opos.mobad.api;
 
 import android.content.Context;
 import android.util.Log;
@@ -12,4 +12,7 @@ public class MobAdManager {
         Log.i("zytag","MobAdManager-init-11--not_for_oppo_ad");
     }
     public void exit(Context c){}
+    public final String getSdkVerName() {
+        return "no_oppo_ad_jar";
+    }
 }

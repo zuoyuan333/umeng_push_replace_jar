@@ -1,4 +1,4 @@
-package com.oppo.mobad.api.params;
+package com.opos.mobad.api.params;
 
 public interface INativeAdFile {
     String getUrl();

@@ -1,4 +1,4 @@
-package com.oppo.mobad.api;
+package com.opos.mobad.api;
 
 public class InitParams {
     public InitParams(InitParams.Builder var){

@@ -1,7 +1,7 @@
-package com.oppo.mobad.api.listener;
+package com.opos.mobad.api.listener;
 
-import com.oppo.mobad.api.params.INativeAdData;
-import com.oppo.mobad.api.params.NativeAdError;
+import com.opos.mobad.api.params.INativeAdData;
+import com.opos.mobad.api.params.NativeAdError;
 
 import java.util.ArrayList;
 import java.util.List;

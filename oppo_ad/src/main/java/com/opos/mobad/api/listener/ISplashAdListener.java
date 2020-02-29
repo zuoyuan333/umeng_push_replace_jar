@@ -1,4 +1,4 @@
-package com.oppo.mobad.api.listener;
+package com.opos.mobad.api.listener;
 
 public interface ISplashAdListener {
     String TAG = "ISplashAdListener";

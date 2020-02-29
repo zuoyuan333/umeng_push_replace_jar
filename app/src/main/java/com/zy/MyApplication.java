@@ -3,7 +3,7 @@ package com.zy;
 import android.app.Application;
 import android.util.Log;
 
-import com.oppo.mobad.api.MobAdManager;
+import com.opos.mobad.api.MobAdManager;
 
 import org.android.agoo.huawei.HuaWeiRegister;
 import org.android.agoo.oppo.OppoRegister;
