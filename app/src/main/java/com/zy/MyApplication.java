@@ -24,6 +24,7 @@ public class MyApplication extends Application {
         new android.os.Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
+                Log.i("zytag","MyApplication-run-25-sdkVer-oppo-ad_ver_"+MobAdManager.getInstance().getSdkVerName());
                 Log.i("zytag","MyApplication-run-25-sdkVer-oppo-push__"+com.coloros.mcssdk.PushManager.getInstance().getSDKVersion());
                 Log.i("zytag","MyApplication-run-27-sdkVer-vivo-push__"+com.vivo.push.PushManager.getInstance(MyApplication.this).getVersion());
                 Log.i("zytag","MyApplication-run-28-sdkVer-huawei_push__"+ com.huawei.hms.api.HuaweiApiAvailability.HMS_SDK_VERSION_NAME);
