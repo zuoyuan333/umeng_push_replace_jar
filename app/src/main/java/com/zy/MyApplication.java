@@ -25,12 +25,12 @@ public class MyApplication extends Application {
             @Override
             public void run() {
                 Log.i("zytag","MyApplication-run-25-sdkVer-oppo-ad_ver_"+MobAdManager.getInstance().getSdkVerName());
-                Log.i("zytag","MyApplication-run-25-sdkVer-oppo-push__"+com.coloros.mcssdk.PushManager.getInstance().getSDKVersion());
+                Log.i("zytag","MyApplication-run-25-sdkVer-oppo-push__"+com.heytap.mcssdk.PushManager.getInstance().getSDKVersion());
                 Log.i("zytag","MyApplication-run-27-sdkVer-vivo-push__"+com.vivo.push.PushManager.getInstance(MyApplication.this).getVersion());
                 Log.i("zytag","MyApplication-run-28-sdkVer-huawei_push__"+ com.huawei.hms.api.HuaweiApiAvailability.HMS_SDK_VERSION_NAME);
                 Log.i("zytag","MyApplication-run-29-sdkVer-xiaomi_push__--解压apk查看miui_push_version--");
                 Log.i("zytag","MyApplication-run-30--------------------------------------------------------");
-                Log.i("zytag","MyApplication-run-31-token-oppo-push"+com.coloros.mcssdk.PushManager.getInstance().getRegisterID());
+                Log.i("zytag","MyApplication-run-31-token-oppo-push"+com.heytap.mcssdk.PushManager.getInstance().getRegisterID());
                 Log.i("zytag","MyApplication-run-32-token-vivo-push"+com.vivo.push.PushManager.getInstance(MyApplication.this).getRegId());
                 Log.i("zytag","MyApplication-run-32-token-huawei-push"+token);
                 Log.i("zytag","MyApplication-run-32-token-xiaomi-push"+token);
