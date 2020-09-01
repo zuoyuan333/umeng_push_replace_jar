@@ -1,1 +1,1 @@
-include ':app', ':huawei_push', ':xiaomi_push', ':vivo_push', ':oppo_push', ':oppo_ad'
+include ':app', ':huawei_push', ':xiaomi_push', ':meizu_push_381', ':vivo_push', ':oppo_push', ':oppo_ad', ':zpgame'
